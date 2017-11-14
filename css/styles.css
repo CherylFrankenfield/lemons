@@ -18,9 +18,6 @@
   top: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  /*background-color: red;*/
-  /*height: 325px;
-  width: 800px;*/
 }
 
 .grey-box {
@@ -28,10 +25,7 @@
   border-style: solid;
   border-width: 30px;
   border-color: #9e9e9e;
-  /*height: 325px;
-  width: 325px;*/
   margin-right: 3%;
-
 }
 
 .blue-box {
@@ -41,30 +35,52 @@
   border-width: 5px;
   border-color: #5b9aff;
   background-color: #93baf9;
+  padding: 10px;
+}
+
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: #7c3fff;
 }
 
 #lemon {
-  height: 100px;
+  height: 50px;
   width: auto;
+  display: block;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text-box {
-  position: relative;
-  height: 10px;
-  width: 150px;
+  width: auto;
+  background-color: #e2e2e2;
+  padding: 1px;
+  border-color: #b5b5b5;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #7c3fff;
+  font-size: 13px;
+  text-align: center;
 }
 
 .purple-box-top {
   position: relative;
   border-style: solid;
   border-width: 2px;
-  border-color: #be96ff;
+  border-color: #7c3fff;
   width: 375px;
   float: right;
   border-bottom: none;
   text-align: center;
   padding: 16px;
-  color: #bd96ff;
+  color: #7c3fff;
 }
 
 .numbers {
@@ -75,27 +91,10 @@
   height: 275px;
   width: 375px;
   float: right;
-  border-color: #be96ff;
+  border-color: #7c3fff;
   border-style: solid;
   border-width: 2px;
   padding: 8%;
   text-align: center;
   font-size: 18px;
-}
-
-
-
-.purple-box-bottom p {
-  /*text-align: center;
-  margin-top: 10px;
-  padding: 75px;
-  font-size: 21px;*/
-}
-
-h1 {
-  font-size: 20px;
-}
-
-h2 {
-  font-size: 20px;
 }
